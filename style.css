@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-sec {
+    background-color: #2C3742;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    margin: 15px;
+}
+
+.bg-color {
+    background-color: #1E2D3B;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 80px;
+    justify-content: center;
+}
+
+.song-card {
+    width: calc(100% / 5 - 50px);
+    background-color: #2E3A46;
+    padding: 40px;
+    margin: 10px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-content h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.card-content span {
+    color: #6E7B6E;
+    margin: 10px 0px;
+    font-size: 20px;
+}
