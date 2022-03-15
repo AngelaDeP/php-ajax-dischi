@@ -29,22 +29,16 @@ require __DIR__ . '/database.php';
         <div class="bg-color">
             <div class="container">
                 <div class="song-card" >
-
                     <?php
-
                         foreach($database as $disco) {
-
                             echo "<div class='card-content'>";
                             echo "<img src='". $disco['poster'] ."'>";
                             echo "<h1>". $disco['title'] ."</h1>";
                             echo "<span>". $disco['author'] ."</span>";
                             echo "<span>". $disco['year'] ."</span>";
                             echo "</div>";
-
                         }
-
                     ?>
-
                 </div>
             </div>      
         </div>

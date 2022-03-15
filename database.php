@@ -1,7 +1,5 @@
 <?php
-
     $database = [
-
         [
             'title' => 'New Jersey',
             'author' => 'Bon Jovi',
@@ -44,7 +42,5 @@
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg',
             'genre' => 'Rock'
         ]
-        
     ];
-​
 ?>
